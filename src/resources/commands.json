@@ -1,0 +1,148 @@
+[
+    {
+      "command":"help",
+      "responseType":"list",
+      "value":[
+        "<code>about</code> : Affiche les informations me concernant",
+        "<code>clean</code> : Nettoie le terminal",
+        "<code>experiences</code> : Affiche la liste de mes expériences",
+        "<code>skills</code> : Affiche la liste de mes compétences",
+        "<code>skills encours</code> : Affiche la liste de mes compétences encours",
+        "<code>certifications</code> : Affiche la liste de mes certifications obtenues",
+        "<code>cv</code> : Télécharge le CV",
+        "<code>help</code> : Affiche l'aide",
+        "<code>hobby</code> : Affiche la liste de mes passes temps",
+        "<code>dark/light</code> : Change le thème de la page",
+        "<em>Vous pouvez utiliser la touche TAB afin de compléter une commande</em>",
+        "<em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas.</em>"
+      ]
+    },
+    {
+      "command":"about",
+      "responseType":"code",
+      "value":[
+        "{",
+        "   \"nom\" : \"DIABAKATE Ikary Ryann Kouadio Kamory\",",
+        "   \"poste\" : \"Développeur WEB/MOBILE - DevOps - Pentesteur\",",
+        "   \"experience\" : \"7 ans\",",
+        "   \"ville\" : \"Abidjan, Côte d'Ivoire\"",
+        "}"
+      ]
+    },
+    {
+      "command":"experiences",
+      "responseType":"table",
+      "headers":[
+        "Date",
+        "Poste & Client",
+        "Description",
+        "Tech"
+      ],
+      "rows":[
+        [
+          "06/2020<br/>",
+          "DÉVELOPPEUR D’APP MOBILE SÉCURISÉE & DEVSECOPS<br/><em><code>SOUGAHPAY</code></em>",
+          "Projet de création d’une application mobile de transfert d’argent. Réguler le serveur et l'application web au norme PCI-DSS, Sécurité des APIs, Test de pénétration.",
+          "Server(IDS/IPS - bash - Linux - git/gitlab), App Mobile(Flutter & Dart)"
+        ],
+        [
+          "03/2019<br/>",
+          "DÉVELOPPEUR D’APP MOBILE SÉCURISÉE<br/> <em><code>CAMPUS MONDE</code> </em>",
+          "Projet de création d’une application mobile de Radio CAMPUS MONDE.",
+          "Firebase <br/> Flutter & Dart<<br/>"
+        ],
+        [
+          "07/2018<br/>",
+          "DÉVELOPPEUR D’APP LIVRAISON MOBILE SÉCURISÉE<br/><code><em>WENI</em></code>",
+          "Projet de Création d’une application mobile de Livraison sécurisé entreprise weni (weni.ci).",
+          "backend(Firebase), Front-end(Dashboard admin - vuejs/ App mobile - Flutter & Dart)."
+        ],
+        [
+          "01/2019<br/>05/2020",
+          "RESPONSABLE PENTESTEUR JUNIOR SÉCURITÉ & INTRUSION<br/><code><em>NYS-AFRICA</em></code>",
+          "Élaboration de procédure et politique de sécurité. Mise en place d’une stratégie pour des actions telles que (sensibilisation des utilisateurs aux problèmes de sécurité, de sauvegarde de données, reprise après sinistre). Recherche de preuves digitales Analyse et récupération de preuves numérique Test de pénétration des Systèmes Informatiques (Serveur, Serveur web, Base de données, Réseau, IoT, Application web). Scanner de vulnérabilité des systèmes IT.",
+          "Metasploit<br/>Injection SQL<br/>NMAP<br/>Acunetix<br/>Cloudflare<br/>Google hacking<br/>Sqlmap"
+        ],
+        [
+          "05/2017<br/>12/2017",
+          "STAGIAIRE DÉVELOPPEUR<br/><code><em>CI-ENERGIES</em></code>",
+          "Création d’un logiciel pour la gestion du parc informatique et consommables. L’installation des postes et autres, chargé d’assistance aux utilisateurs, au dépannage réseau et de la maintenance des différents équipements.",
+          "PHP<br/>HTML<br/>NMAP<br/>CSS"
+        ]
+      ]
+    },
+    {
+      "command":"skills",
+      "responseType":"list",
+      "value":[
+        "Programmation: C, C++, JS, PYTHON, PHP, FLUTTER & DART",
+        "Editeur: NANO, VI, EMACS, VSCODE, VISUAL STUDIO, ANDROID STUDIO, ATOM",
+        "Framework: LARAVEL, ADONIS JS, VUE JS",
+        "DevOps: DOCKER, SHELL, VAGRANT, GIT, GCC",
+        "Linux: DEBIAN, UBUNTU, PARROT OS, KALI OS",
+        "Database: MYSQL/MARIADB, ORACLE, POSTGRSQL",
+        "Server: APACHE, NODEJS",
+        "Sécurité: WIRESHARK, BURP SUITE, METASPLOIT, OWASP, NMAP, SQLMAP, CLOUDFLARE, SNORT",
+        "Framework: MYSQL/MARIADB, ORACLE, POSTGRSQL",
+        "Other: FIREBASE, GITHUB, GITLAB, BITBUCKET, SOCKET, API, POSTMAN, INSOMNIA"
+      ]
+    },
+    {
+      "command":"skills encours",
+      "responseType":"list",
+      "value":[
+        "Programmation: C#, .NET, JAVA",
+        "Agile: SCRUM MASTER"
+      ]
+    },
+    {
+      "command":"certifications",
+      "responseType":"list",
+      "value":[
+        "ALX-SE: SOFTWARE ENGINEERING | htts://intranetalswe.com/certificates/32PGneXHx6",
+        "CEHv10: CERTIFIED ETHICAL HACKER | N°ECC1934570826",
+        "CSCUv2: CERTIFIED SECURE COMPUTER USER | N°ECC5192670843",
+        "GADTP: GOOGLE AFRICA DEVELOPER TRAINING PROGRAM | ID E34E6BEE11CF498A",
+        "PSE: POSTMAN STUDENT EXPERT | ID idiabakate@gmail.com"
+      ]
+    },
+    {
+      "command":"hobby",
+      "responseType":"list",
+      "value":[
+        "Musique: Piano",
+        "Technologies: Actualités",
+        "Autre: Football, Sports"
+      ]
+    },
+     {
+      "command":"",
+      "responseType":"table",
+      "headers":[
+        "Nom",
+        "Description",
+        "Tech",
+        "Liens"
+      ],
+      "rows":[
+        [
+          "Chartsfinder - Web<br/>(2021)",
+          "Application web pour trouver rapidement des cartes aéronautiques. Une version C# existait déjà mais j'ai préféré la mettre à jour avec une version web qui est plus simple d'utilisation.",
+          "Angular 11, PHP 7.4",
+          "<a href=\"https://chartsfinder.adautry.fr\" target=\"blank\">Lien</a>"
+        ],
+        [
+          "Personal website<br/>(2021)",
+          "Site web personnel me permettant de montrer mes projets et de déployer une nouvelle version du logiciel.<br/>Il y a même un jeu caché...",
+          "Symfony 5",
+          "<a href=\"https://adautry.fr\" target=\"blank\">Lien</a>"
+        ],
+        [
+          "Chartsfinder - Software<br/>(2020)",
+          "Logiciel permettant de récupérer rapidement les cartes aéronautiques.",
+          "C# WPF",
+          "<a href=\"https://adautry.fr/software/chartsfinder\" target=\"blank\">Lien</a>"
+        ]
+      ]
+    } 
+]
